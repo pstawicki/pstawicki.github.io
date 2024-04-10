@@ -16,6 +16,7 @@
             height: 50vh; /* set the height of each video to 50% of the viewport height */
             box-sizing: border-box; /* include the padding and border in the video's total width and height */
             padding: 1px; /* add some padding around each video */
+	    border: 1px solid #ccc; /* add a border around each video */
         }
     </style>
 </head>
@@ -42,48 +43,34 @@
 <!-- 2 x 2 
 old ver 2022
 <div class="video-container">
-		<!-- Bielik Online Bory Tucholskie / White-tailed Eagle Online Tucholskie Forest -->
+		!-- Bielik Online Bory Tucholskie / White-tailed Eagle Online Tucholskie Forest --
 		<iframe src="https://www.youtube.com/embed/fkw2tqJFqOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		
-		<!-- Rybołowy Online Puszcza Napiwodzko-Ramucka / Ospreys Online in Napiwodzko-Ramucka Forest -->
+		!-- Rybołowy Online Puszcza Napiwodzko-Ramucka / Ospreys Online in Napiwodzko-Ramucka Forest --
 		<iframe src="https://www.youtube.com/embed/L9JImtn67i4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		
-		<!-- Bocian czarny Online Puszcza Notecka / Black stork Online Notecka Forest -->
+		!-- Bocian czarny Online Puszcza Notecka / Black stork Online Notecka Forest --
 		<iframe src="https://www.youtube.com/embed/hz87pjB4y-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		
-		<!-- Rybołowy Online Puszcza Barlinecka / Ospreys Online in Barlinecka Forest --> 
+		!-- Rybołowy Online Puszcza Barlinecka / Ospreys Online in Barlinecka Forest --
 		<iframe src="https://www.youtube.com/embed/lTSO-s8CHHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</div>
-
-
 
 CSS:
 In the CSS code above, we've set the display property of the video-container class to flex to create a flexible container for the videos. We've also set the flex-wrap property to wrap to wrap the videos in a new row if they don't fit.
 
 For each iframe element inside the video-container class, we've set the width to 50%, the height to 50% of the viewport height, and added some padding and a border around each video. We've also included the padding and border in the video's total width and height by setting the box-sizing property to border-box.
 
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>My Website</title>
-	<style>
-		.video-container {
-			display: flex; /* set the display property to flex */
-			flex-wrap: wrap; /* wrap the videos in a new row if they don't fit */
-		}
-
-		.video-container iframe {
-			width: 50%; /* set the width of each video to 50% */
-			height: 50vh; /* set the height of each video to 50% of the viewport height */
-			box-sizing: border-box; /* include the padding and border in the video's total width and height */
-			padding: 10px; /* add some padding around each video */
-			border: 1px solid #ccc; /* add a border around each video */
-		}
-	</style>
-</head>
 <body>
 	<h1>My Website</h1>
+	
+	.video-container 
+
+	    width: 50.0%; /* set the width of each video to 33.33% (1/3 of the container) */
+            height: 50vh; /* set the height of each video to 50% of the viewport height */
+            box-sizing: border-box; /* include the padding and border in the video's total width and height */
+            padding: 1px; /* add some padding around each video */
+	    border: 1px solid #ccc; /* add a border around each video */
 	<div class="video-container">
 		<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -92,6 +79,4 @@ For each iframe element inside the video-container class, we've set the width to
 	</div>
 </body>
 </html>
-
-
 -->
